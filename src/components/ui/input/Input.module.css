@@ -1,0 +1,14 @@
+
+.inp {
+    border: none;
+    border-bottom: 2px solid lightseagreen;
+    padding: 10px 0;
+    font-size: 1em;
+    width: 100%;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.inp[disabled] {
+    opacity: .5;
+}

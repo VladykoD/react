@@ -1,0 +1,14 @@
+
+
+
+.btn {
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: #FFFFFF;
+    background: lightseagreen;
+}
+
+.btn[disabled] {
+    opacity: .5;
+}

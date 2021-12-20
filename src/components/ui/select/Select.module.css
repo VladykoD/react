@@ -1,0 +1,27 @@
+.selectWrap {
+    border: 2px solid lightseagreen;
+    font-size: 1rem;
+    border-radius: 5px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+select {
+    appearance:none;
+    font: inherit;
+    padding: 10px 40px 10px 20px;
+}
+
+.selectWrap::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid lightseagreen;
+    border-bottom: 2px solid lightseagreen;
+    transform: rotate(45deg) translate3d(-50%, -50%, 0);
+    display: block;
+    transform-origin: center;
+}

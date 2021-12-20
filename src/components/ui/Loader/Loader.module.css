@@ -1,0 +1,14 @@
+.loader {
+    width: 100px;
+    height: 80px;
+    border-radius: 50%;
+    border: 8px solid lightseagreen;
+    border-bottom: none;
+    animation: circle 1.5s ease-in-out infinite;
+    transform-origin: center;
+}
+
+@keyframes circle {
+    0% {transform: rotate(0deg)}
+    100% {transform: rotate(360deg)}
+}

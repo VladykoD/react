@@ -1,0 +1,10 @@
+
+.pagerWrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.pagerWrap button {
+    margin: 0 5px 5px 0;
+}
